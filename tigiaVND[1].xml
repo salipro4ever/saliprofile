@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs title="Tỷ giá tiền Việt Nam" title_url="http://salipropham.blogspot.com" scaling="false" description="Tự động cập nhật tỷ giá Việt Nam đồng từ Vietcombank" author="Salipro Phạm" author_affiliation="http://salipropham.blogspot.com" author_email="saliproit.sgu@gmail.com" height="220" width="100%" screenshot="https://lh5.googleusercontent.com/-7icR2PMpRHw/T2AtoWJfQgI/AAAAAAAAByo/Afxbb5zoGtA/s222/rete%255B1%255D.png" thumbnail="https://lh3.googleusercontent.com/-d3FSu-GqImU/T2At_3RftiI/AAAAAAAAByw/9nCZEQW3W-E/s259/saliproit.jpg"/>
+<Content type="html"><![CDATA[
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title>Menu Right Shop</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<div>
+  <div style="margin: 0;padding-top:5px; width:100%; background-color:#CECECE;text-align:center;color:rgb(255,255,255)"><b><font size="4"><span>Tỷ giá VNĐ</span></font></b><hr style="padding-bottom: 1px;color: rgb(255, 255, 255);"></div>  
+<script type="text/javascript" language="JavaScript" src="http://vnexpress.net/Service/Forex_Content.js"></Script>  
+<script type="text/javascript" language="JavaScript">
+   document.write('<table border="1" width="100%" style="border-collapse: collapse" bordercolor="#C0C0C0">');
+    try
+    {
+        if (typeof vForexs[0] != "undefined")
+            document.write('<tr><td align="left">&nbsp;&nbsp;<img src="https://lh4.googleusercontent.com/-dTP1k33PWz8/TvPZDWzPhXI/AAAAAAAAA0Q/p4R_K74zkiE/s800/ico_usd.gif"> 1 &nbsp;' + vForexs[0] + '</td><td align="left">&nbsp;' + vCosts[0] + ' &nbsp;&nbsp;<font size="1">VNĐ</font></td></tr>');
+        if (typeof vForexs[4] != "undefined")
+            document.write('<tr><td align="left">&nbsp;&nbsp;<img src="https://lh3.googleusercontent.com/-So2ALiysCy8/TvPZCylcBDI/AAAAAAAAA0Q/qscLkhBZPQ0/s800/ico_jpy.gif"> 1 &nbsp;' + vForexs[4] + '</td><td align="left">&nbsp;' + vCosts[4] + ' &nbsp;&nbsp;<font size="1">VNĐ</font></td></tr>');
+        if (typeof vForexs[8] != "undefined")
+            document.write('<tr><td align="left">&nbsp;&nbsp;<img src="https://lh4.googleusercontent.com/-axCnzSdbi8Q/TvPZCvbGmfI/AAAAAAAAA0Q/Iom7yYZ1UdM/s800/ico_eur.gif"> 1 &nbsp;' + vForexs[8] + '</td><td align="left">&nbsp;' + vCosts[8] + ' &nbsp;&nbsp;<font size="1">VNĐ</font></td></tr>');        
+        if (typeof vForexs[5] != "undefined")
+            document.write('<tr><td align="left">&nbsp;&nbsp;<img src="https://lh4.googleusercontent.com/-zdNF5gwGWV4/TvPZCLbIXvI/AAAAAAAAA0Q/Z8dQ5mMCqPY/s800/ico_aud.gif"> 1 &nbsp;' + vForexs[5] + '</td><td align="left">&nbsp;' + vCosts[5] + ' &nbsp;&nbsp;<font size="1">VNĐ</font></td></tr>');
+        if (typeof vForexs[6] != "undefined")
+            document.write('<tr><td align="left">&nbsp;&nbsp;<img src="https://lh4.googleusercontent.com/-HAcmZ39iPX0/TvPZCJEYsFI/AAAAAAAAA0Q/MKLiqO636IM/s800/ico_cad.gif"> 1 &nbsp;' + vForexs[6] + '</td><td align="left">&nbsp;' + vCosts[6] + ' &nbsp;&nbsp;<font size="1">VNĐ</font></td></tr>');
+        if (typeof vForexs[9] != "undefined")
+            document.write('<tr><td align="left">&nbsp;&nbsp;<img src="https://lh5.googleusercontent.com/-akBuSVnOsQw/TvPZFBvlozI/AAAAAAAAA0Q/jIqJHriaF84/s800/ico_nzd.gif"> 1 &nbsp;' + vForexs[9] + '</td><td align="left">&nbsp;' + vCosts[9] + ' &nbsp;&nbsp;<font size="1">VNĐ</font></td></tr>');        
+    }
+    catch (error)
+    {
+        document.write('<tr><td colspan="2" class="source"><a href="http://salipropham.blogspot.com">Salipro Phạm</a></td></tr>');
+    }
+    document.write('<tr style="text-align: right;"><td colspan="2" class="source"><i>( nguồn: vietcombank )</i></td></tr>');
+    document.write('</table>');
+</script>
+  </div>
+</body>
+</html>
+]]></Content>
+</Module>
