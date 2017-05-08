@@ -1,0 +1,140 @@
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/SyntaxHighlighter
+ */
+.syntaxhighlighter {
+  background-color: white !important;
+  background:url(https://lh3.googleusercontent.com/-NfSPoUr5v2o/T3m4vKuh8II/AAAAAAAAB68/E_sPep_q5PM/s78/codeview.png) no-repeat right top;
+  border: 1px solid #999;
+  width: 560px;
+  margin: 10px 30px;
+  font-size: 12px;
+  position: relative;
+  height:auto;
+  height: expression( this.scrollHeight > 510 ? "510px" : "auto" );
+  max-height: 510px !important;
+  overflow: auto;
+}
+.syntaxhighlighter .line {
+  white-space: pre !important;
+}
+.syntaxhighlighter .line.alt1 {
+  height: 18px;
+}
+.syntaxhighlighter .line.alt2 {
+ height: 18px;
+}
+.syntaxhighlighter .line.highlighted.alt1, .syntaxhighlighter .line.highlighted.alt2 {
+  background-color: #e0e0e0 !important;
+}
+.syntaxhighlighter .line.highlighted.number {
+  color: black !important;
+}
+.syntaxhighlighter table {
+  max-width : 560px;
+  margin:5px 0;
+}
+.syntaxhighlighter table caption {
+  color: black !important;
+}
+.syntaxhighlighter .gutter {
+  color: #afafaf !important;
+  padding-right:10px;
+vertical-align: text-top;
+}
+.syntaxhighlighter .container {
+/*width: 510px;
+overflow: auto;*/
+}
+.syntaxhighlighter table td.code .container textarea {
+  box-sizing: border-box !important;
+  left: 5% !important;
+  top: 0% !important;
+  position: absolute;
+  width: 530px !important;
+  height: 100% !important;
+  border: none !important;
+  background: #FFF !important;
+  padding-left: 1em !important;
+  overflow: hidden !important;
+  white-space: pre !important;
+}
+
+.syntaxhighlighter .gutter .line {
+  border-right: 3px solid #6ce26c !important;
+  padding: 0 5px 0 5px;
+}
+.syntaxhighlighter .gutter .line.highlighted {
+  background-color: #6ce26c !important;
+  color: white !important;
+}
+.syntaxhighlighter.printing .line .content {
+  border: none !important;
+}
+.syntaxhighlighter.collapsed {
+  overflow: visible !important;
+}
+.syntaxhighlighter.collapsed .toolbar {
+  display:none;
+}
+.syntaxhighlighter.collapsed .toolbar a {
+  color: blue !important;
+}
+.syntaxhighlighter.collapsed .toolbar a:hover {
+  color: red !important;
+}
+.syntaxhighlighter .toolbar {
+  display:none;
+ 
+}
+.syntaxhighlighter .toolbar a {
+  color: white !important;
+}
+.syntaxhighlighter .toolbar a:hover {
+  color: black !important;
+}
+.syntaxhighlighter .plain, .syntaxhighlighter .plain a {
+  color: black !important;
+}
+.syntaxhighlighter .comments, .syntaxhighlighter .comments a {
+  color: #008200 !important;
+}
+.syntaxhighlighter .string, .syntaxhighlighter .string a {
+  color: blue !important;
+}
+.syntaxhighlighter .keyword {
+  color: #006699 !important;
+}
+.syntaxhighlighter .preprocessor {
+  color: gray !important;
+}
+.syntaxhighlighter .variable {
+  color: #aa7700 !important;
+}
+.syntaxhighlighter .value {
+  color: #009900 !important;
+}
+.syntaxhighlighter .functions {
+  color: #ff1493 !important;
+}
+.syntaxhighlighter .constants {
+  color: #0066cc !important;
+}
+.syntaxhighlighter .script {
+  font-weight: bold !important;
+  color: #006699 !important;
+  background-color: none !important;
+}
+.syntaxhighlighter .color1, .syntaxhighlighter .color1 a {
+  color: gray !important;
+}
+.syntaxhighlighter .color2, .syntaxhighlighter .color2 a {
+  color: #ff1493 !important;
+}
+.syntaxhighlighter .color3, .syntaxhighlighter .color3 a {
+  color: red !important;
+}
+
+.syntaxhighlighter .keyword {
+  font-weight: bold !important;
+}
